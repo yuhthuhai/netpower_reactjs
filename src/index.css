@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navlink-hover {
+    @apply hover:bg-slate-950/50 p-2 rounded-md
+}
+
