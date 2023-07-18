@@ -5,6 +5,9 @@ import ExerciseOne from './pages/ExerciseOne';
 import ExerciseTwo from './pages/ExerciseTwo';
 import ExerciseThree from './pages/ExerciseThree';
 import ExerciseFour from './pages/ExerciseFour';
+import ExerciseFive from './pages/ExerciseFive';
+import ExerciseSix from './pages/ExerciseSix';
+import ExerciseSeven from './pages/ExerciseSeven';
 
 function App() {
   return (
@@ -27,13 +30,13 @@ function App() {
             <Link to="/ex4">Exercise 4</Link>
           </li>
           <li className="navlink-hover">
-            <Link to="/">Exercise 5</Link>
+            <Link to="/ex5">Exercise 5</Link>
           </li>
           <li className="navlink-hover">
-            <Link to="/">Exercise 6</Link>
+            <Link to="/ex6">Exercise 6</Link>
           </li>
           <li className="navlink-hover">
-            <Link to="/">Exercise 7</Link>
+            <Link to="/ex7">Exercise 7</Link>
           </li>
           <li className="navlink-hover">
             <Link to="/">Exercise 8</Link>
@@ -52,6 +55,9 @@ function App() {
         <Route path='/ex2' element={<ExerciseTwo />}/>
         <Route path='/ex3' element={<ExerciseThree />}/>
         <Route path='/ex4' element={<ExerciseFour />}/>
+        <Route path='/ex5' element={<ExerciseFive />}/>
+        <Route path='/ex6' element={<ExerciseSix />}/>
+        <Route path='/ex7' element={<ExerciseSeven />}/>
       </Routes>
     </>
   );
