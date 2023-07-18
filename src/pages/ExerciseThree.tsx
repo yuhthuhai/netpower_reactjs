@@ -7,7 +7,7 @@ const ExerciseThree = () => {
   const [coffee, setCoffee] = useState(false);
 
   return (
-    <div className='flex flex-col items-center gap-10 my-0 mx-auto'>
+    <div className='flex flex-col w-fit gap-10 my-0 mx-auto mt-10'>
         <label htmlFor="">
             <input checked={apple} type="checkbox" name="apple" onChange={(e) => {setApple(e.target.checked)}} id="apple" /> Apple
         </label>
